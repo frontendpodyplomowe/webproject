@@ -3912,6 +3912,19 @@ input, select, textarea {
 						color: #fff;
 					}
 
+		#footer .phone_number {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			letter-spacing: 0.225em;
+			list-style: none;
+			padding: 0;
+			text-transform: uppercase;
+
+		}
+			#footer .phone_number li:hover {
+				color: #fff;
+			}
+
 				@media screen and (max-width: 480px) {
 
 					#footer .copyright li {
@@ -3923,6 +3936,7 @@ input, select, textarea {
 					}
 
 				}
+
 
 		@media screen and (max-width: 980px) {
 
